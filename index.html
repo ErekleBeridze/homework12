@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/49117ff12f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header  -->
+    <header>
+        <img src="img/header.svg" alt="logo">
+
+        <form class="form_1" name="">
+            <input class="head_search text1" type="search" name="search" placeholder="What are you looking for?">
+            <input class="search1 " type="image" name="search" src="img/search.svg">
+        </form>
+
+        <div>
+
+            <a href="">
+                <button class="login ">LOG IN</button>
+            </a>
+
+            <a href=""> <button class="cart">
+                    <img src="img/cart.svg" alt="logo"></button>
+            </a>
+
+        </div>
+    </header>
+
+    <!-- section1  -->
+    <section class="section1">
+
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a class="text2 white" href="">HOME</a>
+                </li>
+                <li>
+                    <a class="text2 white" href="">ABOUT</a>
+                </li>
+                <li>
+                    <a class="text2 white" href="">SERVICES</a>
+                </li>
+                <li>
+                    <a class="text2 white" href="">PLANT CARE</a>
+                </li>
+                <li>
+                    <a class="text2 white last_nav" href="">CONTACT US</a>
+                </li>
+            </ul>
+        </nav>
+
+    </section>
+
+    <!-- section2  -->
+    <section class="section2">
+        <div class="contact_us">
+
+            <h2 class="">CONTACT US</h2>
+
+            <form class="form_2" name="form_N2">
+
+                <div class="name_email">
+                    <input type="text" name="name" placeholder="name" class="text1 email">
+                    <input type="email" name="email" placeholder="email" class="text1 email">
+                </div>
+
+                <div class="selection">
+
+                    <label class="text1 white" for="Choices">Is your question about an existing order?</label>
+
+                    <select name="choice" id="Choice">
+
+                        <option value="" selected disabled> </option>
+                        <option class="options" value="">YES</option>
+                        <option class="options" value="">NO</option>
+
+                    </select>
+
+                </div>
+
+                <div class="radio_choice">
+
+                    <div class="radio_wraper">
+                        <input type="radio" id="DoNotReceive" name="radio_wraper_choice">
+                        <label class="small_txt_size radio_labels" for="DoNotReceive">I did not receive my order</label>
+                    </div>
+
+                    <div class="radio_wraper">
+                        <input type="radio" id="Damaged" name="radio_wraper_choice">
+                        <label class="small_txt_size radio_labels" for="Damaged">My order is incorrect or arrived
+                            damaged</label>
+                    </div>
+
+                    <div class="radio_wraper">
+                        <input type="radio" id="Cancel" name="radio_wraper_choice">
+                        <label class="small_txt_size radio_labels" for="Cancel">Cancel my order</label>
+                    </div>
+
+                    <div class="radio_wraper">
+                        <input type="radio" id="Change" name="radio_wraper_choice">
+                        <label class="small_txt_size radio_labels" for="Change">Change my shipping address</label>
+                    </div>
+
+                </div>
+
+                <div class="txt_area_message">
+                    <label class="small_txt_size color_white" for="massage">Please provide more details below.</label>
+                    <textarea class="small_txt_size textarea" name="message" id="massage" cols="30" rows="10"
+                        placeholder="Message"></textarea>
+                </div>
+
+                <div class="check_box">
+                    <input class="checkbox" type="checkbox" name="receive" id="Receive">
+                    <label class="small_txt_size color_white" for="Receive">I want to receive the newsletter</label>
+                </div>
+
+                <input class="send_button small_txt_size color_white" type="submit" value="SEND">
+
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>
