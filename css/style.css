@@ -85,6 +85,7 @@ header {
 }
 
 /* section 2 */
+
 h2 {
     color: #FFF;
     text-shadow: 2px 4px 4px rgba(249, 12, 239, 0.71);
@@ -155,13 +156,13 @@ h2 {
     color: black;
 }
 
-.radio_choice {
+.radios {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
 }
 
-.radio_wraper {
+.radios_wrap {
     display: flex;
     align-items: center;
     column-gap: 8px;
@@ -178,33 +179,25 @@ input[type=radio] {
     align-items: center;
 }
 
-input[type=radio]:checked::before {
-    content: "";
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background-color: rgba(243, 10, 234, 0.71);
-}
 
 .radio_labels {
     color: #B052B5;
 }
 
-.txt_area_message {
+.message_area {
     display: flex;
     flex-direction: column;
     row-gap: 8px;
 }
 
 .textarea {
-    color: rgba(158, 141, 158, 0.71);
-    border-radius: 8px;
-    border: 1px solid #B052B5;
+    border-radius: 8px;   
     resize: none;
     width: 100%;
     padding: 11px 22px;
     height: 112px;
     background-color: transparent;
+    border: 1px solid #B052B5;
 }
 
 .check_box {
@@ -228,7 +221,7 @@ input[type=radio]:checked::before {
 .checkbox:checked::before {
     content: "\f078";
     font-family: "Font Awesome 6 free";
-    font-weight: 900;
+    font-weight: 700;
     width: 16px;
     height: 16px;
     color: #F30AEA;
@@ -239,5 +232,53 @@ input[type=radio]:checked::before {
     padding: 19px 0px;
     border-radius: 16px;
     background: #F30AEA;
-    cursor: pointer;
+}
+
+/* footer  */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 72px;
+    background-color: #01ACA9;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.footer_links {
+    display: flex;
+    gap: 24px;
+}
+
+.footer_title {
+    font-weight: 700;
+}
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.contact_ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.contact {
+    display: flex;
+    column-gap: 8px;
+}
+
+.div_nav_p {
+    color: #F5E0F5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
 }

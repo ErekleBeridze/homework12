@@ -77,7 +77,7 @@
 
                     <label class="text1 white" for="Choices">Is your question about an existing order?</label>
 
-                    <select name="choice" id="Choice">
+                    <select name="choice" id="Choices">
 
                         <option value="" selected disabled> </option>
                         <option class="options" value="">YES</option>
@@ -87,48 +87,122 @@
 
                 </div>
 
-                <div class="radio_choice">
+                <div class="radios">
 
-                    <div class="radio_wraper">
-                        <input type="radio" id="DoNotReceive" name="radio_wraper_choice">
-                        <label class="small_txt_size radio_labels" for="DoNotReceive">I did not receive my order</label>
+                    <div class="radios_wrap">
+
+                        <input type="radio" id="DoNotReceive" name="">
+                        <label class="text1 radio_labels" for="Don't_receive">I did not receive my order</label>
+
                     </div>
 
-                    <div class="radio_wraper">
+
+                    <div class="radios_wrap">
+
                         <input type="radio" id="Damaged" name="radio_wraper_choice">
-                        <label class="small_txt_size radio_labels" for="Damaged">My order is incorrect or arrived
-                            damaged</label>
+                        <label class="text1 radio_labels" for="Damaged">My order is incorrect or arrived damaged</label>
+
                     </div>
 
-                    <div class="radio_wraper">
+
+                    <div class="radios_wrap">
+
                         <input type="radio" id="Cancel" name="radio_wraper_choice">
-                        <label class="small_txt_size radio_labels" for="Cancel">Cancel my order</label>
+                        <label class="text1 radio_labels" for="Cancel">Cancel my order</label>
+
                     </div>
 
-                    <div class="radio_wraper">
+                    <div class="radios_wrap">
+
                         <input type="radio" id="Change" name="radio_wraper_choice">
-                        <label class="small_txt_size radio_labels" for="Change">Change my shipping address</label>
+                        <label class="text1 radio_labels" for="Change">Change my shipping address</label>
+
                     </div>
+
 
                 </div>
 
-                <div class="txt_area_message">
-                    <label class="small_txt_size color_white" for="massage">Please provide more details below.</label>
-                    <textarea class="small_txt_size textarea" name="message" id="massage" cols="30" rows="10"
-                        placeholder="Message"></textarea>
+                <div class="message_area">
+
+                    <label class="text1 white" for="massage">Please provide more details below.</label>
+                    <textarea class="text1 textarea" name="message" id="massage" placeholder="Message"></textarea>
+
                 </div>
 
                 <div class="check_box">
                     <input class="checkbox" type="checkbox" name="receive" id="Receive">
-                    <label class="small_txt_size color_white" for="Receive">I want to receive the newsletter</label>
+                    <label class="text1 white" for="Receive">I want to receive the newsletter</label>
                 </div>
 
-                <input class="send_button small_txt_size color_white" type="submit" value="SEND">
+                <input class="send_button text1 white" type="submit" value="send">
 
             </form>
         </div>
 
     </section>
+
+     <!-- footer  -->
+     <footer>
+
+        <div class="links"> 
+
+            <p class="white footer_title">Follow us</p>
+
+            <div class="footer_links">
+
+                <a href="https://ru-ru.facebook.com/">
+                    <img src="img/facebook.svg" alt="">
+                </a>
+
+                <a href="https://www.instagram.com/" class="link2">
+                    <img src="img/instagram.svg" alt="">
+                </a>
+
+                <a href="https://twitter.com/">
+                    <img src="img/twiter.svg" alt="">
+                </a>
+
+                <a href="https://www.pinterest.com/">
+                    <img src="img/pinterest.svg" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer_contact"> 
+
+            <p class="footer_contact_title text1 white">Contact us</p>
+
+            <ul class="contact_ul">
+
+                <li class="contact">
+                    <a href="https://www.google.com/maps/place/%E1%83%9B%E1%83%90%E1%83%A0%E1%83%AF%E1%83%90%E1%83%9C%E1%83%98%E1%83%A8%E1%83%95%E1%83%98%E1%83%9A%E1%83%98/@41.7092762,44.7974673,17z/data=!4m6!3m5!1s0x40440d27c088e619:0x85df45e4dde9bf15!8m2!3d41.7098214!4d44.7975361!16s%2Fm%2F0gtwgb0?entry=ttu" target="_blank">
+                        <img src="img/adres.svg" alt="logo">
+                    </a>
+                    <p class="text1 white">New York, 94 Brodway</p>
+                </li>
+
+                <li class="contact">
+                    <a href="tel: +555 67 88 00"><img src="img/phone.svg" alt="logo">
+                    </a>
+                    <p class="text1 white">+555 67 88 00</p>
+                </li>
+
+                <li class="contact">
+                    <a href="mailto:plant@gmail.com"><img src="img/mail.svg" alt="logo">
+                    </a>
+                    <p class="text1 white">plant@gmail.com</p>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <p class="div_nav_p">Copyright © 2023 House Plant Shop.</p>
+
+    </footer>
 </body>
 
 </html>
